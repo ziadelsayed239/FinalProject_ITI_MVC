@@ -1,18 +1,21 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using ITI_MVC.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ITI_MVC.Controllers
 {
     public class AccountController : Controller
     {
-        UserManager user;
-        public AccountController(UserManager user)
+        readonly UserManager<ApplicationUser> user;
+        public AccountController(UserManager<ApplicationUser> user)
         {
             this.user = user;
         }
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Login()
         {
             return View();
         }
+
     }
 }

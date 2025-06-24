@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "A:\\ziad\\c#\\ITI_MVC_WebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|a:\\ziad\\c#\\iti_mvc_webapp\\iti_mvc\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|solutionrelative:iti_mvc\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|a:\\ziad\\c#\\iti_mvc_webapp\\iti_mvc\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|solutionrelative:iti_mvc\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|a:\\ziad\\c#\\iti_mvc_webapp\\iti_mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|solutionrelative:iti_mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|a:\\ziad\\c#\\iti_mvc_webapp\\iti_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|solutionrelative:iti_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Migrations\\20250623171002_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITI_MVC\\Migrations\\20250623171002_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|a:\\ziad\\c#\\iti_mvc_webapp\\iti_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -61,6 +65,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|a:\\ziad\\c#\\iti_mvc_webapp\\iti_mvc\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|solutionrelative:iti_mvc\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|a:\\ziad\\c#\\iti_mvc_webapp\\iti_mvc\\migrations\\20250623171002_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA596855-74D2-4070-A7B4-B293FD072B2E}|ITI_MVC\\ITI_MVC.csproj|solutionrelative:iti_mvc\\migrations\\20250623171002_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1197,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +86,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "ITI_MVC\\Repository\\Repository.cs",
+              "ToolTip": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Repository\\Repository.cs",
+              "RelativeToolTip": "ITI_MVC\\Repository\\Repository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:12:26.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Repository\\IRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "ITI_MVC\\Repository\\IRepository\\IRepository.cs",
+              "ToolTip": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Repository\\IRepository\\IRepository.cs",
+              "RelativeToolTip": "ITI_MVC\\Repository\\IRepository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:10:23.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ITI_MVC\\Views\\Shared\\_Layout.cshtml",
@@ -86,25 +120,24 @@
               "RelativeToolTip": "ITI_MVC\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABwAAAAAAAAAAAAIwCgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T17:15:20.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T17:15:20.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Controllers\\AccountController.cs",
               "ToolTip": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ITI_MVC\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T17:15:04.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "20250623171002_init.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Migrations\\20250623171002_init.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Migrations\\20250623171002_init.cs",
@@ -112,12 +145,11 @@
               "RelativeToolTip": "ITI_MVC\\Migrations\\20250623171002_init.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwDAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:10:02.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T17:10:02.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OrderHeader.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Models\\OrderHeader.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Models\\OrderHeader.cs",
@@ -125,12 +157,11 @@
               "RelativeToolTip": "ITI_MVC\\Models\\OrderHeader.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAswBYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:52:22.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:52:22.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Category.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Models\\Category.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Models\\Category.cs",
@@ -138,25 +169,24 @@
               "RelativeToolTip": "ITI_MVC\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:45:43.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:45:43.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Program.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Program.cs",
               "ToolTip": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Program.cs",
               "RelativeToolTip": "ITI_MVC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T22:40:09.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Models\\OrderDetail.cs",
@@ -164,12 +194,11 @@
               "RelativeToolTip": "ITI_MVC\\Models\\OrderDetail.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:46:14.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:46:14.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Models\\ErrorViewModel.cs",
@@ -177,12 +206,11 @@
               "RelativeToolTip": "ITI_MVC\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:56:44.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:56:44.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Data\\ApplicationDbContext.cs",
@@ -190,12 +218,11 @@
               "RelativeToolTip": "ITI_MVC\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:33:28.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T22:33:28.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\appsettings.json",
               "RelativeDocumentMoniker": "ITI_MVC\\appsettings.json",
@@ -203,12 +230,11 @@
               "RelativeToolTip": "ITI_MVC\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-22T22:42:54.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T22:42:54.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Models\\ApplicationUser.cs",
@@ -216,12 +242,11 @@
               "RelativeToolTip": "ITI_MVC\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:31:39.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T22:31:39.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Models\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Models\\ShoppingCart.cs",
@@ -229,12 +254,11 @@
               "RelativeToolTip": "ITI_MVC\\Models\\ShoppingCart.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:56:34.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:56:34.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Product.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Models\\Product.cs",
@@ -242,12 +266,11 @@
               "RelativeToolTip": "ITI_MVC\\Models\\Product.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAADwvx4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:47:34.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:47:34.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Models\\ProductImage.cs",
@@ -255,12 +278,11 @@
               "RelativeToolTip": "ITI_MVC\\Models\\ProductImage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:53:50.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:53:50.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Role.cs",
               "DocumentMoniker": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\Models\\Role.cs",
               "RelativeDocumentMoniker": "ITI_MVC\\Models\\Role.cs",
@@ -268,8 +290,7 @@
               "RelativeToolTip": "ITI_MVC\\Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:32:27.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T22:32:27.811Z"
             }
           ]
         },

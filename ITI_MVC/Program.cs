@@ -1,4 +1,6 @@
 using ITI_MVC.Data;
+using ITI_MVC.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace ITI_MVC
@@ -16,7 +18,11 @@ namespace ITI_MVC
             builder.Services.AddDbContext<ApplicationDbContext>(
                 op => op.UseSqlServer(builder.Configuration.GetConnectionString("cs")));
 
-            
+            builder.Services.AddIdentity<ApplicationUser, Role>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
