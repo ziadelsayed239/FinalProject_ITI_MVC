@@ -33,6 +33,7 @@ namespace ITI_MVC
                 app.UseHsts();
             }
 
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

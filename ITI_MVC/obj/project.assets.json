@@ -4190,24 +4190,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASHRAF\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Kimo Store\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\ITI_MVC.csproj",
+      "projectUniqueName": "A:\\ITI\\MVC\\fianl\\FinalProject_ITI_MVC\\ITI_MVC\\ITI_MVC.csproj",
       "projectName": "ITI_MVC",
-      "projectPath": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\ITI_MVC.csproj",
-      "packagesPath": "C:\\Users\\ASHRAF\\.nuget\\packages\\",
-      "outputPath": "A:\\ziad\\c#\\ITI_MVC_WebApp\\ITI_MVC\\obj\\",
+      "projectPath": "A:\\ITI\\MVC\\fianl\\FinalProject_ITI_MVC\\ITI_MVC\\ITI_MVC.csproj",
+      "packagesPath": "C:\\Users\\Kimo Store\\.nuget\\packages\\",
+      "outputPath": "A:\\ITI\\MVC\\fianl\\FinalProject_ITI_MVC\\ITI_MVC\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ASHRAF\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Kimo Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4233,8 +4228,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -4278,7 +4272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

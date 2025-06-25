@@ -61,5 +61,10 @@ namespace ITI_MVC.Repository
         {
             dbSet.RemoveRange(entity);
         }
+
+        public void Save()
+        {
+            context.SaveChanges();
+        }
     }
 }
