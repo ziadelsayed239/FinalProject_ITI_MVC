@@ -1,0 +1,45 @@
+﻿@model ITI_MVC.ViewModels.OrderDetailsViewModel
+
+<div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-4 bg-light p-3">
+        <h4>Order Details</h4>
+        <p><strong>Name:</strong> @Model.OrderHeader.Name</p>
+        <p><strong>Address:</strong> @Model.OrderHeader.StreetAddress</p>
+        <p><strong>City:</strong> @Model.OrderHeader.City</p>
+        <p><strong>State:</strong> @Model.OrderHeader.State</p>
+        <p><strong>PostalCode:</strong> @Model.OrderHeader.PostalCode</p>
+        <p><strong>PhoneNumber:</strong> @Model.OrderHeader.PhoneNumber</p>
+        <p><strong>Order Date:</strong> @Model.OrderHeader.OrderDate.ToShortDateString()</p>
+        <p><strong>Shipping Date:</strong> @Model.OrderHeader.ShippingDate.ToShortDateString()</p>
+        @* <p><strong>Total:</strong> @Model.OrderHeader.OrderTotal.ToString("C")</p> *@
+        <p><strong>Order Total Price:</strong> @Model.OrderDetails.Sum(d => d.Price * d.Count).ToString("C")</p>
+
+    </div>
+
+    <!-- Product List -->
+    <div class="col-md-8 p-3">
+        <h4>المنتجات</h4>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Unit Price</th>
+                    <th>Count</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.OrderDetails)
+                {
+                    <tr>
+                        <td>@item.Product.Title</td>
+                        <td>@item.Price.ToString("C")</td> 
+                        <td>@item.Count</td>
+                        <td>@(item.Price * item.Count)$</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
