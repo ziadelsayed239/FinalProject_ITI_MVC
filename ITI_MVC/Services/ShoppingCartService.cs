@@ -6,38 +6,36 @@ namespace ITI_MVC.Services
 {
     public class ShoppingCartService : IShoppingCartService
     {
-        private readonly IRepository<ShoppingCart> _cartRepo;
-        private readonly IRepository<Product> _productRepo;
+        private readonly IRepository<ShoppingCart> cartRepo;
 
-        public ShoppingCartService(IRepository<ShoppingCart> cartRepo, IRepository<Product> productRepo)
+        public ShoppingCartService(IRepository<ShoppingCart> cartRepo)
         {
-            _cartRepo = cartRepo;
-            _productRepo = productRepo;
+            this.cartRepo = cartRepo;
         }
 
         public void AddToCart(string userId, int productId, int quantity)
         {
-            var cartItem = _cartRepo.Get(c => c.ApplicationUserId == userId && c.ProductId == productId);
+            var cartItem = cartRepo.Get(c => c.ApplicationUserId == userId && c.ProductId == productId);
             if (cartItem != null)
             {
                 cartItem.Count += quantity;
             }
             else
             {
-                _cartRepo.Add(new ShoppingCart { ApplicationUserId = userId, ProductId = productId, Count = quantity });
+                cartRepo.Add(new ShoppingCart { ApplicationUserId = userId, ProductId = productId, Count = quantity });
             }
         }
 
         public void RemoveFromCart(string userId, int productId)
         {
-            var cartItem = _cartRepo.Get(c => c.ApplicationUserId == userId && c.ProductId == productId);
+            var cartItem = cartRepo.Get(c => c.ApplicationUserId == userId && c.ProductId == productId);
             if (cartItem != null)
-                _cartRepo.Remove(cartItem);
+                cartRepo.Remove(cartItem);
         }
 
         public IEnumerable<ShoppingCart> GetUserCart(string userId)
         {
-            return _cartRepo.GetAll(c => c.ApplicationUserId == userId, includeProperties: "Product");
+            return cartRepo.GetAll(c => c.ApplicationUserId == userId, includeProperties: "Product");
         }
 
         public decimal GetCartTotal(string userId)

@@ -30,9 +30,22 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignOut">SignOut</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignOut">Welcome[]</a>
-                            </li>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+            <li class="nav-item">
+                <span class="nav-link text-dark">Welcome, @User.Identity.Name</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignOut">Sign Out</a>
+            </li>
+
+                                @if (User.IsInRole("Admin"))
+                                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Dashboard">Management</a>
+                    </li>
+                                }
+                            }
                             if (User.IsInRole("Admin"))
                             {
                                 <li class="nav-item">

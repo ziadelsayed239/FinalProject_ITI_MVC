@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using ITI_MVC.DatabaseInitializer;
 using ITI_MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,15 @@ namespace ITI_MVC.Controllers
 
         public IActionResult Index()
         {
+            if (DbInitializer.AdminCreated)
+            {
+                ViewBag.Message = "? Admin user has been created successfully.";
+            }
+            else
+            {
+                ViewBag.Message = "";
+            }
+
             return View();
         }
 
