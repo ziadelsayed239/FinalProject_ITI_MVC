@@ -1,4 +1,5 @@
-﻿using ITI_MVC.Models;
+﻿using ITI_MVC.Data;
+using ITI_MVC.Models;
 using ITI_MVC.Repository.IRepository;
 using ITI_MVC.Services.IServices;
 
@@ -43,5 +44,6 @@ namespace ITI_MVC.Services
             var cartItems = GetUserCart(userId);
             return cartItems.Sum(c => (decimal)c.Product.Price * c.Count);
         }
+
     }
 }
