@@ -1,0 +1,21 @@
+﻿@model ITI_MVC.Models.Category
+
+@{
+    ViewData["Title"] = "Delete Category";
+}
+
+<div class="mt-4 px-4">
+    <h2 class="mb-4 text-danger">Are you sure?</h2>
+
+    <div class="mb-3">
+        <strong>ID:</strong> @Model.Id <br />
+        <strong>Name:</strong> @Model.Name
+    </div>
+
+    <form asp-action="DeleteConfrim" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <button type="submit" class="btn btn-danger">Yes, Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

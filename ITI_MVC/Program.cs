@@ -1,5 +1,7 @@
 using ITI_MVC.Data;
 using ITI_MVC.Models;
+using ITI_MVC.Repository.IRepository;
+using ITI_MVC.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,8 +15,12 @@ namespace ITI_MVC
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
-            
+
+
+
             builder.Services.AddDbContext<ApplicationDbContext>(
                 op => op.UseSqlServer(builder.Configuration.GetConnectionString("cs")));
 

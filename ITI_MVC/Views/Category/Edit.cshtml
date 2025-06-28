@@ -1,0 +1,26 @@
+﻿@model ITI_MVC.Models.Category
+
+@{
+    ViewData["Title"] = "Edit Category";
+}
+
+<div class="mt-4 px-4">
+    <h2 class="mb-4">Edit Category</h2>
+
+    <form asp-action="Edit" method="post" class="w-50">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label fw-bold"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger small"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Update</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

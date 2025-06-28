@@ -19,5 +19,7 @@ namespace ITI_MVC.Repository
         {
             _context.Categories.Update(category);
         }
+
+
     }
 }
